@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>IT817A2 — Peter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/weather.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="ftco-overflow-hidden">
+
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Beijing - CHINA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="food.html" class="nav-link">Food</a></li>
+          <li class="nav-item active"><a href="location.html" class="nav-link">Location</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+  <div class="hero-wrap js-fullheight" style="background-image: url('img/bj_1.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+        <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+          <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Location</span></p>
+          <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Location & Weather</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="ftco-section contact-section ftco-degree-bg">
+    <div class="container-fluid">
+      <div class="row d-flex mb-3 contact-info">
+        <div class="col-md-12 mb-4">
+          <h2 class="h4">Where is Beijing</h2>
+        </div>
+      </div>
+      <div class="row">
+        <input id="pac-input" class="map-search-control d-none" type="text" placeholder="Search Your Place">
+        <div class="col-lg-8 col-md-12 col-sm-12 pr-md-5" id="map">
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <h7 class="weather-caption d-none" id="weather-caption">Move the map to view the weather in different places.</h7>
+          <div class="weather-container d-none" id="weather"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>Copyright &copy;<script>
+              document.write(new Date().getFullYear());
+            </script> All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+      </svg>
+  </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/jquery.simpleWeather.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZjLkQbRgHuC1-U7Zh3MWRPEOUQ9azLWA&libraries=places"></script>
+  <script src="js/google-map.js"></script>
+</body>
+
+</html>
